@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    list-style-type: none;
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ffffff
+}
+
+ul li{
+    list-style-type: none;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #524D6E;
+}
+
+.hero-img{
+    height: 750px;
+    width: 100%;
+    position: absolute;
+}
+
+.card-message{
+    position: relative;
+    color: #ffffff;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 70px;
+}
+
+form{
+    margin-top: 10px;
+}
+
+.form-div1{
+    display: flex;
+}
+
+.form-div2 label{
+    display: flex;
+}
+
+.form-div2 input{
+    width: 300px;
+    height: 28px;
+    border-radius: 57px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.bt{
+    height: 30px;
+    width: 72px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.bt button{
+    width: 86px;
+    height: 32px;
+    background-color: lightseagreen;
+    border-radius: 18px;
+}
+.wrap {
+    margin-top: 10px;
+  }
+  
+
+.btn {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    }
+  
+  .btn:hover {
+    background-color: #ff5722;
+        box-shadow: 0px 15px 20px rgba(119, 29, 0, 0.73);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+.services{
+    height: 841px;
+    width: 98%;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: #524D6E;
+    gap: 20px;
+}
+
+.services .img{
+    height: 50px;
+    width: 25%;
+}
+
+.div-grid{
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid1{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(/img/firmbee-com-jrh5lAq-mIs-unsplash.jpg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid2{
+    color: #ffffff;
+    margin-left: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.grid3{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(/img/kelly-sikkema-M98NRBuzbpc-unsplash.jpg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid4{
+    color: #ffffff;
+    margin-left: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid5{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(/img/marten-bjork-6dW3xyQvcYE-unsplash.jpg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid6{
+    color: #ffffff;
+    margin-left: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer .card-message2{
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 70px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 80px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
